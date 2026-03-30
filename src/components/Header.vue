@@ -1,17 +1,23 @@
 <script lang="ts" setup>
 
 import { ElIcon } from 'element-plus'
-import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
+import { HomeFilled, SuccessFilled, Link } from '@element-plus/icons-vue'
 
 // 个人主页
 const home = {
-    name: "My Blog",
-    link: "https://junyaohu.github.io/",
+    name: "Github",
+    link: "https://github.com/CRIS-YANGYQ/",
+}
+
+// 实验室主页
+const lab = {
+    name: "Lab",
+    link: "https://scuthcc.top/",
 }
 
 // 项目主页
 const logo = {
-    name: "Template",
+    name: "Persona-E²",
     link: "#",
 }
 
@@ -47,7 +53,13 @@ const more_paper = {
         <!-- 个人主页 -->
         <el-menu-item index="0" >
             <el-icon :size="20"><HomeFilled /></el-icon>
-            <a :href=home.link>{{ home.name }} </a>
+            <a :href=home.link target="_blank">{{ home.name }} </a>
+        </el-menu-item>
+        
+        <!-- 实验室主页 -->
+        <el-menu-item index="3">
+            <el-icon :size="20"><Link /></el-icon>
+            <a :href=lab.link target="_blank">{{ lab.name }} </a>
         </el-menu-item>
         
         <!-- 项目主页 -->

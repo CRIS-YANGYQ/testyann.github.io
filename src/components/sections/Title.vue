@@ -4,16 +4,16 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = "./icon/HAI_light.png"
 
 // 标题
-const title = 'Academic Project Page Template'
+const title = 'Persona-E²'
 
 // 标题颜色
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' (Vue based)'
+const title_supp = ': A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events'
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -24,22 +24,64 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Your Name",
+    name: "Yuqin Yang",
     icon: "./icon/junyaohu.jpg",
-    homepage: "https://junyaohu.github.io/",
-    address_flag: "1,#"
+    homepage: "https://github.com/CRIS-YANGYQ",
+    address_flag: "1,2"
   },
   {
-    name: "Anya Forger",
+    name: "Haowu Zhou",
     icon: "./icon/anya.jpg",
-    homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
+    homepage: "https://github.com/zhouhaowu",
+    address_flag: "1,2"
   },
   {
-    name: "BugCat Capoo",
+    name: "Haoran Tu",
     icon: "./icon/capoo.webp",
-    homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    homepage: "https://github.com/PeterTuhaoran",
+    address_flag: "1,2"
+  },
+  {
+    name: "Zhiwen Hui",
+    icon: "./icon/home.png",
+    homepage: "https://github.com/HZW-1",
+    address_flag: "1,2"
+  },
+  {
+    name: "Shiqi Yan",
+    icon: "./icon/ikun.avif",
+    homepage: "https://github.com/ldylle",
+    address_flag: "1,2"
+  },
+  {
+    name: "HaoYang Li",
+    icon: "./icon/junyaohu.jpg",
+    homepage: "https://github.com/L3033",
+    address_flag: "1,2"
+  },
+  {
+    name: "Dong She",
+    icon: "./icon/anya.jpg",
+    homepage: "#",
+    address_flag: "1,2"
+  },
+  {
+    name: "Xianrong Yao",
+    icon: "./icon/capoo.webp",
+    homepage: "#",
+    address_flag: "1,2"
+  },
+  {
+    name: "Yang Gao",
+    icon: "./icon/home.png",
+    homepage: "#",
+    address_flag: "1,2"
+  },
+  {
+    name: "Zhanpeng Jin",
+    icon: "./icon/ikun.avif",
+    homepage: "https://www2.scut.edu.cn/gzic_en/2025/0711/c44985a602804/page.htm",
+    address_flag: "1,2,*"
   },
 ]
 
@@ -47,15 +89,15 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
-    icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    name: "South China University of Technology",
+    icon: "./icon/SCUT-logo.svg",
+    homepage: "https://www.scut.edu.cn/"
   },
   {
     address_flag: "2",
-    name: "IKUN University",
-    icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+    name: "HAI Lab",
+    icon: "./icon/HAI_light_crop.png",
+    homepage: "https://scuthcc.top/"
   },
 ]
 
@@ -64,14 +106,14 @@ const con_and_corresponding_author =
   "#: Equal Contribution. *: Corresponding Author."
 
 // 最新消息
-const news = "🔥 [2024-12-15] This template project is still under development."
+const news = "🔥 [2026-03-19] Persona-E² project page is launched."
 
 // 强调内容
 const emphases = [
-  "🎉 [ABCD 2024] Poster",
-  "🥰 欢迎关注“减论”微信公众号/B站/知乎/小红书",
-  "传递人工智能算法科普教育的减约理解",
-  "提升信息效率及认知维度"
+  "🎉 [ACL 2026] Main Conference",
+  "🥰 Persona-driven Event and Emotion Relationship",
+  "Explore the impact of persona on emotional responses to events",
+  "Large-scale dataset with expert annotations"
 ]
 
 // 提供引导资料链接
@@ -130,7 +172,7 @@ const buttons = [
     <!-- 最新消息提示 -->
     <el-row justify="center">
       <el-col :span="24">
-        <el-alert title="🔥 This template is still under development." type="success" />
+        <el-alert title="🔍 Feel free to contact us if you have any questions." type="success" />
       </el-col>
     </el-row>
 

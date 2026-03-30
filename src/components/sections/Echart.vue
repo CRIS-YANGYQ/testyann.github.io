@@ -31,7 +31,7 @@ export default {
       option: {
         // 使用echarts设置属性和数据
         title: {
-            text: 'Traffic Sources',
+            text: 'Subjective Divergence Subset (SDS) Distribution',
             left: 'center',
         },
         tooltip: {
@@ -40,22 +40,20 @@ export default {
         },
         legend: {
             orient: 'horizontal',
-            left: 'right',
+            left: 'center',
             top: 'bottom',
-            data: ['Direct', 'Email', 'Ad Networks', 'Video Ads', 'Search Engines'],
+            data: ['News', 'Social Media', 'Life-Experience'],
         },
         series: [
           {
-            name: 'Traffic Sources',
+            name: 'SDS Counts',
             type: 'pie',
             radius: '50%',
             center: ['50%', '50%'],
             data: [
-              { value: 335, name: 'Direct' },
-              { value: 310, name: 'Email' },
-              { value: 234, name: 'Ad Networks' },
-              { value: 135, name: 'Video Ads' },
-              { value: 1548, name: 'Search Engines' },
+              { value: 257, name: 'News' },
+              { value: 69, name: 'Social Media' },
+              { value: 87, name: 'Life-Experience' },
             ],
             emphasis: {
               itemStyle: {
