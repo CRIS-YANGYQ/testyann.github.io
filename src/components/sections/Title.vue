@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = "./icon/HAI_light.png"
+const logo = "./icon/logo.png"
 
 // 标题
 const title = 'Persona-E²'
@@ -25,44 +25,44 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Yuqin Yang",
-    icon: "./icon/junyaohu.jpg",
+    icon: "./icon/photoYang.jpg",
     homepage: "https://github.com/CRIS-YANGYQ",
     address_flag: "1,2"
   },
   {
     name: "Haowu Zhou",
-    icon: "./icon/anya.jpg",
+    icon: "./icon/photoZhou.png",
     homepage: "https://github.com/zhouhaowu",
     address_flag: "1,2"
   },
   {
     name: "Haoran Tu",
-    icon: "./icon/capoo.webp",
+    icon: "./icon/photoTu.jpg",
     homepage: "https://github.com/PeterTuhaoran",
     address_flag: "1,2"
   },
   {
     name: "Zhiwen Hui",
-    icon: "./icon/home.png",
+    icon: "./icon/photoHui.jpg",
     homepage: "https://github.com/HZW-1",
     address_flag: "1,2"
   },
   {
     name: "Shiqi Yan",
-    icon: "./icon/ikun.avif",
+    icon: "./icon/photoYan.png",
     homepage: "https://github.com/ldylle",
     address_flag: "1,2"
   },
   {
     name: "HaoYang Li",
-    icon: "./icon/junyaohu.jpg",
+    icon: "./icon/photoLi.png",
     homepage: "https://github.com/L3033",
     address_flag: "1,2"
   },
   {
     name: "Dong She",
-    icon: "./icon/anya.jpg",
-    homepage: "#",
+    icon: "./icon/photoShe.png",
+    homepage: "https://github.com/Affective-AI",
     address_flag: "1,2"
   },
   {
@@ -79,7 +79,7 @@ const authors = [
   },
   {
     name: "Zhanpeng Jin",
-    icon: "./icon/ikun.avif",
+    icon: "./icon/photoJin.jpg",
     homepage: "https://www2.scut.edu.cn/gzic_en/2025/0711/c44985a602804/page.htm",
     address_flag: "1,2,*"
   },
