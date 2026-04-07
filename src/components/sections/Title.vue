@@ -33,31 +33,31 @@ const authors = [
     name: "Haowu Zhou",
     icon: "./icon/photoZhou.png",
     homepage: "https://github.com/zhouhaowu",
-    address_flag: "1,2"
+    address_flag: "1"
   },
   {
     name: "Haoran Tu",
     icon: "./icon/photoTu.jpg",
     homepage: "https://github.com/PeterTuhaoran",
-    address_flag: "1,2"
+    address_flag: "1"
   },
   {
     name: "Zhiwen Hui",
     icon: "./icon/photoHui.jpg",
     homepage: "https://github.com/HZW-1",
-    address_flag: "1,2"
+    address_flag: "1"
   },
   {
     name: "Shiqi Yan",
     icon: "./icon/photoYan.png",
     homepage: "https://github.com/ldylle",
-    address_flag: "1,2"
+    address_flag: "1"
   },
   {
     name: "HaoYang Li",
     icon: "./icon/photoLi.png",
     homepage: "https://github.com/L3033",
-    address_flag: "1,2"
+    address_flag: "1"
   },
   {
     name: "Dong She",
@@ -67,14 +67,14 @@ const authors = [
   },
   {
     name: "Xianrong Yao",
-    icon: "./icon/capoo.webp",
+    icon: "./icon/photoYao.png",
     homepage: "#",
     address_flag: "1,2"
   },
   {
     name: "Yang Gao",
-    icon: "./icon/home.png",
-    homepage: "#",
+    icon: "./icon/photoGao.jpg",
+    homepage: "https://ygao36buffalo.github.io/truebluegy.github.io/",
     address_flag: "1,2"
   },
   {
