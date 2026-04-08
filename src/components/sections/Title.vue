@@ -61,7 +61,7 @@ const authors = [
   },
   {
     name: "Dong She",
-    icon: "./icon/photoShe.png",
+    icon: "./icon/photoSheDong.png",
     homepage: "https://github.com/Affective-AI",
     address_flag: "1,2"
   },
@@ -75,7 +75,7 @@ const authors = [
     name: "Yang Gao",
     icon: "./icon/photoGao.jpg",
     homepage: "https://ygao36buffalo.github.io/truebluegy.github.io/",
-    address_flag: "1,2"
+    address_flag: "1,2,*"
   },
   {
     name: "Zhanpeng Jin",
@@ -103,7 +103,7 @@ const addresses = [
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+  "*: Corresponding Author."
 
 // 最新消息
 const news = "🔥 [2026-03-19] Persona-E² project page is launched."
@@ -203,6 +203,11 @@ const buttons = [
       </a>
     </el-row>
 
+    <!-- 共一和通讯提示内容 -->
+    <el-row justify="center" class="con-cor">
+        {{ con_and_corresponding_author }}
+    </el-row>
+
     <!-- 地址名单 -->
     <el-row justify="center">
       <a :href=address.homepage v-for="address in addresses">
@@ -213,11 +218,6 @@ const buttons = [
           </span>
         </el-button>
       </a>
-    </el-row>
-
-    <!-- 共一和通讯提示内容 -->
-    <el-row justify="center" class="con-cor">
-        {{ con_and_corresponding_author }}
     </el-row>
 
     <!-- 强调内容 -->
